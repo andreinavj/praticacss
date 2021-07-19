@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    width: 300px;
+    padding: 40px;
+    color: rgb(156, 118, 114)n;
+}
+
+.conteudo:nth-child(1) {
+    background-color: greenyellow;
+    border-radius: 7px;
+}
+
+.conteudo:nth-child(2) {
+    background-color: royalblue;
+    border-radius: 7px;
+}
+
+.conteudo:nth-child(3) {
+    background-color: skyblue;
+    border-radius: 7px;
+}
+
+.boton {
+    border-radius: 7px;
+}
