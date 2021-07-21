@@ -27,3 +27,91 @@
 .boton {
     border-radius: 7px;
 }
+
+.card {
+    height: 425px;
+    width: 225px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+article {
+    background-color: bisque;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.card__imagem {
+    border-bottom: 1px solid;
+    box-shadow: 0 1px 2px 0 rgba( 0 0 0 / 40%);
+}
+
+.card:hover {
+    box-shadow: 0 0 1px 1px rgba( 0 0 0/ 7%), 0 10px 15px 0 rgba( 0 0 0/ 7%)
+}
+
+.card__info>span {
+    display: block;
+    margin-top: 4px;
+}
+
+.card__info {
+    padding: 16px;
+}
+
+.card__badge {
+    background-color: rgb(0%, 53%, 100%);
+    color: #ffffff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: fit-content;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 2px 4px;
+    margin-bottom: 2px;
+}
+
+.card__precoanterior {
+    font-size: 12px;
+    weight: 300;
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+.card__precoatual {
+    font-size: 24px;
+    weight: 24px;
+    color: rgba( 0 0 0 / 80%)
+}
+
+.card__desconto {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba( 0 166 80)
+}
+
+.card__parcelamento,
+.card__frete {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba( 0 166 80)
+}
+
+.card__titulo {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba( 0 0 0)
+}
